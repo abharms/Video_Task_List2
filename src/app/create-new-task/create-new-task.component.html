@@ -1,0 +1,46 @@
+
+	<div class="row">
+		<div class="grid-example col m12 l6 details-container">
+			<!-- <h4>{{pageTitle}}</h4> -->
+			<div class="card-panel">
+				<h5>Task Details</h5>
+				<input type="text" name="client-name" size="61%" placeholder="Enter client name...">
+				<input type="text" name="client-name" size="61%" placeholder="Enter task title...">
+				<p>Thursday, November 24</p>
+				<select>
+					<option>Producer 1</option>
+					<option>Producer 2</option>
+					<option>Producer 3</option>
+				</select>
+				<textarea rows="2" cols="60" placeholder="Enter task description..."></textarea>
+				<label><input type="checkbox" id="complianceTagCheckbox">Include Compliance Tags</label>
+
+				<!--Task Details Buttons-->
+
+				<div class="task-details-btns">
+					
+						<button type="button" class="btn btn-default btn-lg cancel-btn">Cancel</button>
+					
+				
+						<button type="button" class="btn btn-default btn-lg create-btn">Create Task</button>
+					
+				</div><!--end task-details-btns-->
+
+			</div><!--end card panel-->	
+		</div><!--end details container--> 
+
+<!--Task Clips-->
+
+		<div class="grid-example col m12 l6 clips-container">
+			<div class="card-panel">
+				<div class="task-clips-heading">
+					<h5>Task Clips</h5>
+					<button type="button" class="waves-effect waves-light btn right add-clip-btn create-btn" [routerLink]="['/create-new-task/add-new-task-clip']">Add new clip</button>
+				</div>
+				<router-outlet></router-outlet>
+			</div>	
+		</div><!--end col m6-->
+
+
+	</div><!--end row-->
+

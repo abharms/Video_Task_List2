@@ -1,0 +1,29 @@
+
+input,
+p,
+select,
+textarea {
+	display: block;
+	margin-bottom: 50px;
+}
+
+textarea {
+	height: 7rem;
+}
+#complianceTagCheckbox {
+	float: left;
+	margin-right: 12px;
+}
+
+.task-details-btns .col-md-6 {
+	padding-left: 0;
+}
+
+
+.task-clips-heading h5 {
+	display: inline-block;
+}
+
+.card-panel {
+	margin: 0;
+}

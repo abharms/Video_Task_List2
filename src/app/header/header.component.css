@@ -1,0 +1,48 @@
+/*------------------------------
+Header Styles
+--------------------------------*/
+
+.header {
+	background-color: #292E2F;
+}
+
+#header-title,
+.header-links {
+	color: #FAFBFB;
+}
+
+#header-title {
+	display: inline-block;
+	
+}
+
+h4 {
+	margin-left: 15px;
+}
+
+.form {
+	margin-bottom: 4rem !important;
+}
+
+/*------------------------------
+	Header Nav
+--------------------------------*/
+
+.header-links {
+	padding-top: 28px;
+	padding-right: 32px;
+}
+#manage-users {
+	margin-right: 20px;
+}
+
+@media screen and (max-width: 520px) {
+	
+	#header-title {
+		font-size: 2rem;
+	}
+
+	.header-links {
+		padding: 25px 5px 0 0;
+	}
+}

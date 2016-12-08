@@ -1,0 +1,47 @@
+<div class="container">
+	<div class="row">
+		<div class="col m12">
+			<div class="newTaskBtnContainer col m6">
+				<a id="createNewTaskBtn" class="btn btn-default create-btn"[routerLink]="['/create-new-task']">Create New Task</a>
+			</div><!--end newTaskBtnContainer-->
+
+			<div class="col m6">
+				<form class="right">
+			        <div class="input-field">
+			          <input id="search" type="search" required>
+			          <label for="search"><i class="material-icons">search</i></label>
+			          <i class="material-icons">close</i>
+			        </div>
+		  		</form>
+	  		</div><!--end col m6-->
+
+
+		</div><!--end col m12-->
+
+		<div class="col m12 navbar">
+			<nav class="nav-wrapper">
+				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+				<ul id="nav-mobile" class="left hide-on-med-and-down sideNav">
+					<li><a [routerLink]="['/my-active-tasks']">My Active Tasks</a></li>
+					<li><a href="#">Completed Tasks</a></li>
+					<li><a href="#">All Tasks</a></li>
+					<li><a href="#">Show assigned tasks</a></li>
+					<li><a href="#">Show unassigned tasks</a></li>
+				</ul>
+
+				<ul class="side-nav" id="mobile-demo">
+					<li><a [routerLink]="['/my-active-tasks']">My Active Tasks</a></li>
+					<li><a href="#">Completed Tasks</a></li>
+					<li><a href="#">All Tasks</a></li>
+					<li><a href="#">Show all assigned tasks</a></li>
+					<li><a href="#">Show all unassigned tasks</a></li>
+				</ul>
+
+
+				
+			</nav><!--end nav-wrapper-->
+
+			
+		</div><!--end col-->
+	</div><!--end row-->	
+</div><!--end container-fluid-->

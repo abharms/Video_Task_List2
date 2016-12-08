@@ -1,10 +1,14 @@
 import { Component } from '@angular/core';
 
+import { TaskService } from './tasks/task.service';
+
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+	selector: 'vtl-app',
+	templateUrl: 'app/app.component.html',
+	styleUrls: ['app/app.component.css'],
+	providers: [TaskService]
+
 })
 export class AppComponent {
-  title = 'app works!';
+
 }

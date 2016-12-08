@@ -1,0 +1,52 @@
+body {
+	background: #F0F0F0;
+}
+
+th {
+	text-align: center;
+}
+
+th a {
+	color: #057198;
+}
+
+h1,
+h2,
+h3,
+h4, 
+h5 {
+	color: #282828;
+}
+
+/*------------------------------
+Global Buttons
+--------------------------------*/
+
+
+.cancel-btn {
+	background-color: #A7A9AA;
+}
+
+.create-btn {
+	background-color: #E3695C;
+}
+
+.cancel-btn:hover {
+	background-color: #A7A9AA;
+}
+
+.create-btn:hover {
+	background-color: #E3695C;
+}
+
+
+
+.task-details-btns button {
+	width: 45%;
+	display: inline-block;
+	margin: 30px 0;
+}
+
+.task-details-btns button:nth-child(2) {
+	float: right;
+}
